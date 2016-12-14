@@ -1,0 +1,400 @@
+@media only screen and (max-width: 1273px) {
+	.eyebrow_block .price_title {
+		margin-left: 170px;
+	}
+	.price_block .price_title {
+		@include font-size(5.4);
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.img_gel_block img {
+		width: 60%;
+	}
+	.img_gel_block img:last-child {
+		width: 40%;
+		padding-left: 30px;
+	}
+	.price_block .price_title {
+		@include font-size(5.2);
+	}
+	.price_block .desc {
+		padding-right: 10px;
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+	.price_block .desc_item {
+		padding: 6px 0 6px 30%;
+	}
+}
+
+@media only screen and (max-width: 1110px) {
+	.hands_block img {
+		right: -167px;
+		width: 400px;
+	}
+	.feet_block img {
+		top: -33px;
+		left: -165px;
+		width: 300px;
+	}
+	.design_block img {
+		right: -120px;
+		width: 340px;
+	}
+	.med_pedicure_block img {
+		top: 108px;
+		left: -170px;
+		width: 330px;
+	}
+	.eyebrow_block img {
+		width: 280px;
+		left: -140px;
+		top: 32px;
+	}
+	.eyebrow_block .price_title {
+		margin-left: 145px;
+	}
+	.med_pedicure_block .price_subtitle,
+	.med_pedicure_block .price_title {
+		margin-left: 200px;
+	}
+	.med_pedicure_block .price_content {
+		padding-left: 200px;
+	}
+	.stage_block .stage_title,
+	.stage_block .stage_subtitle{
+		@include font-size(3.2);
+		@include line-height(5.0);
+	}
+}
+
+@media only screen and (max-width: 1065px) {
+	html {
+		font-size: 55%;
+	}
+	.left_block.contact_block {
+		padding-left: 13%;
+	}
+	.left_block.contact_block .location:after {
+		width: 196%;
+		bottom: 3px;
+	}
+	.left_block.founder_block .founder_block_img img {
+		width: 115%;
+	}
+	.course_item li:before{
+		top: 16px;
+	}
+}
+
+@media only screen and (max-width: 1155px) {
+	.left_block.contact_block li {
+		@include font-size(2.2);
+	}
+	.imag_block_flower img:not(.icon_arr) {
+		width: 100%;
+	}
+	.course_desk{
+		width: 100%;
+	} 
+	.course_list li{
+		width: 47%;
+	}
+	.course_item li{
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	html {
+		font-size: 55%;
+	}
+	.imag_block_flower:after {
+		height: 620px;
+	}
+	.block_to_master {
+		padding: 238px 5px 0 70px;
+	}
+	.services {
+		@include font-size(5);
+	}
+	.left_block.founder_block .founder_block_img {
+		height: 610px;
+	}
+	.right_block.founder_block .founder_block_title {
+		@include font-size(3.2);
+	}
+	.right_block.founder_block .founder_block_subtitle {
+		@include font-size(2.8);
+	}
+	.right_block.founder_block .founder_block_text p {
+		@include font-size(2.2);
+	}
+	.price_block .val:before {
+		top: 29px;
+	}
+	.gel_block_item img {
+		width: 130px;
+	}
+	
+}
+
+@media only screen and (max-width: 920px) {
+	html {
+		font-size: 50%;
+	}
+	.servises_list li {
+		padding: 12px 0 12px 65px;
+	}
+	.hand_img {
+		position: relative;
+		height: 600px;
+		img {
+			height: 100%;
+		}
+	}
+	.imag_block_flower:after {
+		height: 560px;
+	}
+	.right_block.contact_block:after {
+		top: 46%;
+		left: 41.5%;
+	}
+	.left_block.contact_block .location:after {
+		width: 190%;
+		bottom: 5px;
+	}
+	.block_to_master {
+		padding: 220px 5px 0 50px;
+	}
+	.contact_block_h {
+		height: 398px;
+	}
+	.price_block .desc,
+	.price_block .val {
+		padding: 7px 0;
+	}
+	.price_block .val {
+		padding-left: 50px;
+	}
+	.price_block .val:before {
+		top: 18px;
+	}
+	.price_block .price_title {
+		@include font-size(4.8);
+	}
+	
+	.gel_block_item img {
+		width: 120px;
+	}
+	.img_gel_block {
+    padding: 50px 105px 80px 20px;
+}
+}
+
+@media only screen and (max-width: 864px) {
+	html {
+		font-size: 45%;
+	}
+	.bg_pink_menu .phone_header {
+		margin-top: 0;
+		padding-top: 15px;
+	}
+	.imag_block_flower:after {
+		height: 540px;
+	}
+	.bg_pink .link_block_text {
+		padding: 40px 10px 0;
+	}
+	.left_block.founder_block .founder_block_img {
+		height: 530px;
+	}
+	.right_block.founder_block .founder_block_subtitle {
+		padding: 3px 0 15px;
+	}
+	.contact_block_h {
+		height: 384px;
+	}
+	.bg_gray .insta_header {
+		margin: 5px 30px 10px 25px;
+		img {
+			width: 100%;
+		}
+	}
+	.main_nav {
+		margin-bottom: 10px;
+	}
+	.phone_header {
+		float: none;
+		text-align: right;
+		padding-right: 30px;
+		margin-bottom: 30px;
+	}
+	.link_block_wrap,
+	.block_to_master {
+		width: 100%;
+	}
+	.block_to_master {
+		padding-top: 100px;
+	}
+	.slider_item .img_block {
+		width: 170px;
+		height: 200px;
+	}
+	.bg_pink_menu.services_page .phone_header {
+		float: right;
+	}
+	.hands_block img {
+		right: -100px;
+		width: 250px;
+	}
+	.feet_block img {
+		top: -15px;
+		left: -90px;
+		width: 230px;
+	}
+	.med_pedicure_block img {
+		top: 122px;
+		left: -110px;
+		width: 220px;
+	}
+	.eyebrow_block img {
+		left: -105px;
+		width: 200px;
+	}
+	.eyebrow_block {
+		margin-top: 80px;
+	}
+	.design_block,
+	.med_pedicure_block {
+		margin-top: 100px;
+	}
+	.home_care {
+		margin: 165px -16.7% 100px;
+	}
+	.home_care .home_care_block img {
+		width: 150px;
+	}
+	.home_care .home_care_block .text_block {
+		padding-top: 30px;
+	}
+	.home_care .home_care_block {
+		margin-top: 15px;
+	}
+	.med_pedicure_block .price_subtitle,
+	.med_pedicure_block .price_title {
+		margin-left: 140px;
+	}
+	.med_pedicure_block .price_content {
+		padding-left: 140px;
+	}
+	.home_care .home_care_subtitle {
+		padding: 35px;
+	}
+	.gel_block_item{
+		width: 100%;
+		margin-bottom: 50px;
+	}
+	.stage_block .stage_title,
+	.stage_block .stage_subtitle{
+		@include font-size(2.8);
+		@include line-height(4.6);
+	}
+}
+
+@media only screen and (max-width: 696px) {
+	.left_block.contact_block {
+		padding-left: 10%;
+	}
+	.left_block.contact_block li img {
+		left: -45px;
+		width: 32px;
+	}
+	.left_block.contact_block .location:after {
+		width: 189%;
+	}
+	.course_list li,
+	.course_item li{
+		width: 100%;
+		margin-right: 0;
+	}
+	.course_desk{
+		margin: 50px 0 30px;
+	}
+	.course_list li,
+	.course_item li{
+    	margin-bottom: 20px;
+	}
+	.course_header {
+		margin: 0 0 25px;
+	}
+	.course_content {
+		margin: 10px 0 30px;
+	}
+	.course_core_text {
+		padding: 20px 0 30px;
+	}
+	.simple_course_list li{
+		padding: 5px 0;
+	}
+	.servises_list {
+		margin-left: 40%;
+	}
+	.servises_list li{
+		white-space: normal;
+		padding: 12px 0 12px 32px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.left_block,
+	.right_block.imag_block_flower{
+		width: 100%;
+		padding: 0 15px;
+		margin: 5px 0 20px;
+	}
+	.imag_block_flower:after{
+		height: 100%;
+	}
+	.servises_list{
+		margin-left: 10%;
+	}
+	.hand_img {
+		position: absolute;
+		height: 600px;
+		width: 80%;
+		margin: 0;
+	}
+	.link_block_button{
+		padding: 14px 35px;
+	}
+	.slider_item .img_block{
+		margin: 0 auto;
+		float: none;
+	}
+	.left_block.founder_block,
+	.right_block.founder_block{
+		width: 100%;
+		padding: 0;
+	}
+	.block_to_master {
+		padding: 15px 5px;
+	}
+	.bold_text{
+		margin: 15px 0 20px;
+	}
+	.testimonials .title{
+		margin-top: 15px;
+		text-align: center;
+	}
+	.left_block.contact_block{
+		width: 100%;
+		padding-left: 25%;
+	}
+	.left_block.contact_block .location:after,
+	.right_block.contact_block{
+		display: none;
+	}
+}

@@ -1,0 +1,8 @@
+@include font-face('opensans-regular', "../fonts/opensans-regular" ,null, null, ttf eot woff svg);
+@include font-face('opensans-light', "../fonts/opensans-light" ,null, null, ttf eot woff svg);
+@include font-face('opensans-bold', "../fonts/opensans-bold" ,null, null, ttf eot woff svg);
+@include font-face('opensans-semibold', "../fonts/opensans-semibold" ,null, null, ttf eot woff svg);
+@include font-face('proximanova-regular', "../fonts/proximanova-regular" ,null, null, ttf eot woff svg);
+
+$bgBody: #fff;
+$mainTextColor: #000;
